@@ -50,5 +50,28 @@ header {
         align-items: center;
         gap: 3.4rem;
       }
+      
+    }
+    .hbr {
+      display: none;
+      color: var(--black);
+      
     }
   }
+
+@media ( max-width: 768px) {
+
+  header {
+    width: 100%;
+  .right {
+    display: none;
+  }
+
+  .hbr {
+    display: flex;
+    color: var(--black);
+    
+  }
+
+}
+}
